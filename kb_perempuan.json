@@ -1,0 +1,15 @@
+{
+  "judul": "Analisis Penyebab Perempuan Marah dalam Hubungan (Perspektif Psikologi Komunikasi)",
+  "batas": "Aturan didasarkan pada artikel edukasi psikologi universitas tentang beban mental (mental load) dan validasi emosional. Hasil berupa simpulan awal mengenai pemicu konflik interpersonal, bukan diagnosis psikologis klinis.",
+  "sumber": {
+    "S1": "Fakultas Psikologi UGM, 'Mengenal Beban Mental (Mental Load) pada Perempuan', https://psikologi.ugm.ac.id/artikel-edukasi/, diakses 13 Nov 2026",
+    "S2": "Jurnal Komunikasi Universitas Airlangga, 'Validasi Emosi dalam Resolusi Konflik Interpersonal', https://journal.unair.ac.id/komunikasi, diakses 13 Nov 2026"
+  },
+  "aturan": [
+    {"id": "R1", "jika": ["menanggung banyak urusan domestik sendirian", "pasangan kurang inisiatif membantu"], "mode": "dan", "maka": "mengalami kelelahan mental (mental load)", "sumber": "S1"},
+    {"id": "R2", "jika": ["bercerita untuk mencari dukungan emosional", "pasangan merespons dengan menceramahi atau main HP"], "mode": "dan", "maka": "merasa tidak didengarkan", "sumber": "S2"},
+    {"id": "R3", "jika": ["mengalami kelelahan mental (mental load)", "pasangan justru menuntut untuk dilayani"], "mode": "dan", "maka": "Marah karena beban ganda (burnout)", "sumber": "S1"},
+    {"id": "R4", "jika": ["merasa tidak didengarkan", "pasangan menganggap keluhannya sebagai hal sepele"], "mode": "dan", "maka": "Marah karena emosinya diabaikan (invalidasi emosional)", "sumber": "S2"},
+    {"id": "R5", "jika": ["janji sering dibatalkan sepihak", "pasangan tidak meminta maaf dengan tulus"], "mode": "dan", "maka": "Marah karena merasa disepelekan dan tidak dihargai", "sumber": "S2"}
+  ]
+}
