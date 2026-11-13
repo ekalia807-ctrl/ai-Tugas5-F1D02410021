@@ -1,0 +1,1 @@
+# Sistem_pakar_sederhana
