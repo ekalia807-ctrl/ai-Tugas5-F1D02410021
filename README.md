@@ -7,7 +7,7 @@
 ## Topik & Cara Menjalankan
 **Topik:** Analisis Penyebab Perempuan Marah dalam Hubungan (Perspektif Psikologi Komunikasi).  
 Program ini ditulis dalam bahasa **Python** (versi 3.14). Untuk menjalankan mesin inferensi, buka terminal dan jalankan:
-```bash
+
 python main.py
 
 ## Daftar Sumber dan Tabel Aturan
